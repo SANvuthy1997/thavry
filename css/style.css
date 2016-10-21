@@ -272,7 +272,7 @@ nav.navbar li.dropdown ul.dropdown-menu {
 }
 
 .modal-header {
-    padding: 2px 16px;
+    padding: 13px 16px;
     background-color: #5cb85c;
     color: white;
 }
@@ -404,8 +404,8 @@ nav.navbar.bootsnav .navbar-toggle {
 .header-order{
     background-color: #27ae60;
     height: 70px;
-    padding-top: 20px;
-    padding-right: 10px;
+    padding: 10px;
+    color: #fff;
 }
 .panel2{
     border: 1px solid #27ae60;
@@ -443,3 +443,5 @@ nav.navbar .navbar-brand img.logo {
     width: 81px;
     margin-top: -12px;
     }
+}
+

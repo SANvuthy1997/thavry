@@ -4,9 +4,17 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	background-color: #f4f4f4;
 }
+h4 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 20px;
 
-.h1 .h2 .h3 .h4 .h5  strong p {
-
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .header {
@@ -21,10 +29,19 @@ ul li {
 }
 
 .thumbnail {
-	border: 1px solid #e5e5e5;
+	border: 0px solid #e5e5e5;
+    border-radius: 0px;
 	margin: -6px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 	background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail:hover {
+    border: 0px solid #e5e5e5;
+    border-radius: 0px;
+    margin: -6px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(8, 103, 24, 0.58);
+    transition: 0.5s;
 }
 
 .padding {
@@ -35,8 +52,10 @@ ul li {
 	width: 100%;
 }
 .title {
-	color: #005cff;
-	cursor: pointer;
+	color: #27ae60;
+	cursor: pointer; 
+    text-transform: uppercase;
+    text-align: 20px;
 }
 .name {
 	color: gray;
@@ -135,10 +154,10 @@ ul li {
 }
 .pay {
     color: #27ae60;
-    padding: 8px;
+    padding: 10px;
     background-color: #fff;
     border-radius: 4px;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 5px;
     font-family: 'Nova Flat', cursive;
 }
@@ -183,21 +202,22 @@ nav.navbar li.dropdown ul.dropdown-menu {
     border-top-color: #27ae60 !important;
 }
 
-.btn1{
-    background-color: #92F22A;
-    border-color: #92F22A;
+.btn1 {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-family: 'Nova Flat', cursive;
+    font-size: 15px;
 }
 .btn1:hover{
-    background-color: #27ae60;
-    border:1px solid #fff;
-    border-color: #53DF83;
-    color: #fff;   
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #27ae60;   
 }
 
 .readmore{
     margin-top: 10px;
     padding: 10px;
-    background-color: #92F22A;
+    background-color: #27ae60;
     max-width: 150px;
     border-radius: 4px;
     font-size: 12px;
@@ -299,7 +319,10 @@ nav.navbar li.dropdown ul.dropdown-menu {
     text-decoration: none;
 }
 
-
+.p-index{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
 
 /*end single*/
 
@@ -403,7 +426,7 @@ nav.navbar.bootsnav .navbar-toggle {
 }
 .header-order{
     background-color: #27ae60;
-    height: 70px;
+    height: 50px;
     padding: 10px;
     color: #fff;
 }
